@@ -12,3 +12,4 @@ RUN mvn package -DskipTests
 
 # Run the application
 CMD ["java", "-jar", "target/email-writer-sb-0.0.1-SNAPSHOT.jar"]
+
