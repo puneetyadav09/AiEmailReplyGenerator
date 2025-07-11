@@ -1,0 +1,16 @@
+# Maven files
+target/
+.idea/
+*.iml
+
+# OS/Editor junk
+.DS_Store
+*.log
+*.swp
+
+# Git
+.git
+.gitignore
+
+# Env
+.env

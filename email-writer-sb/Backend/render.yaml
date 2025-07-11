@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: email-writer-service
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
